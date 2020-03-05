@@ -149,8 +149,8 @@
 }
 
 @media (max-width: 768px) {
-  .logo {
-    margin: 2rem 2rem;
+  .logo a {
+    margin: 2rem 2rem !important;
   }
   .menu-wrap {
     margin: 1rem;
