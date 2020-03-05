@@ -982,12 +982,12 @@
   .contact .contact-content p {
     margin-top: 20px;
   }
-  .email {
+  .contact .email {
     text-align: center;
     padding-left: 0px;
     padding-right: 0px;
   }
-  .email a {
+  .contact .email a {
     font-size: 30px !important;
   }
 }
