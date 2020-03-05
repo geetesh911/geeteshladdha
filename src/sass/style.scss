@@ -1,0 +1,60 @@
+$primary-color: rgba(#181818, 1);
+$overlay-color: rgba(#111111, 1);
+$hover-color: #b3a577;
+$menu-speed: 0.75s;
+
+// fonts import
+@import url("../assets/geomanist/stylesheet.css");
+
+//  stylesheets import
+@import "navbar";
+@import "footer";
+@import "home";
+@import "resume";
+@import "projects";
+@import "contact";
+
+// styling
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Geomanist", sans-serif;
+  line-height: 1.4;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.main {
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #181818;
+  border-left: 9px solid #fefefe;
+  border-right: 9px solid #fefefe;
+  border-top: 20px solid #fefefe;
+  border-bottom: 20px solid #fefefe;
+}
+
+// CSS Transition Group
+.item-enter {
+  opacity: 0;
+}
+.item-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.item-exit {
+  opacity: 1;
+}
+.item-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}

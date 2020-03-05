@@ -1,0 +1,1 @@
+export const GET_RESUME_DATA = "GET_RESUME_DATA";

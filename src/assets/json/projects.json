@@ -1,0 +1,132 @@
+[
+  {
+    "name": "flick",
+    "project_desktop_image": "https://i.ibb.co/jGmNRjr/flick-desktop.png",
+    "project_mobile_image": "https://i.ibb.co/bvsTnq9/flick-mobile.png",
+    "span": "Feb 2020",
+    "url": "https://flick-movies.netlify.com/",
+    "description": "Flick is a movie search website where you can search your favorite movies and tv-shows and find out each and every detail and the ott platform where you can see the movie and also you can create your watchlist.",
+    "technologies": [
+      {
+        "name": "SCSS",
+        "type": "stylesheet language",
+        "end": "front-end"
+      },
+      {
+        "name": "bootstrap",
+        "type": "css framework",
+        "end": "front-end"
+      },
+      {
+        "name": "javascript",
+        "type": "programming language",
+        "end": "front-end"
+      },
+      {
+        "name": "reactJS",
+        "type": "javascript framework",
+        "end": "front-end"
+      },
+      {
+        "name": "nodeJS",
+        "type": "javascript run-time environment",
+        "end": "back-end"
+      },
+      {
+        "name": "netlify",
+        "type": "deployment",
+        "end": "front-end"
+      },
+      {
+        "name": "heroku",
+        "type": "deployment",
+        "end": "back-end"
+      }
+    ]
+  },
+  {
+    "name": "viand",
+    "project_desktop_image": "https://i.ibb.co/r3JKT3X/viand-desktop.png",
+    "project_mobile_image": "https://i.ibb.co/TgBw2Ym/viand-mobile.png",
+    "span": "Jan 2020",
+    "url": "https://viand.netlify.com/",
+    "description": "This is an website to add an experience of a visit to a restaurant or cafe like a private diary for your food bucket list.",
+    "technologies": [
+      {
+        "name": "SCSS",
+        "type": "stylesheet language",
+        "end": "front-end"
+      },
+      {
+        "name": "bootstrap",
+        "type": "css framework",
+        "end": "front-end"
+      },
+      {
+        "name": "materializecss",
+        "type": "css framework",
+        "end": "front-end"
+      },
+      {
+        "name": "javascript",
+        "type": "programming language",
+        "end": "front-end"
+      },
+      {
+        "name": "reactjs",
+        "type": "javascript framework",
+        "end": "front-end"
+      },
+      {
+        "name": "nodejs",
+        "type": "javascript run-time environment",
+        "end": "back-end"
+      },
+      {
+        "name": "netlify",
+        "type": "deployment",
+        "end": "front-end"
+      },
+      {
+        "name": "heroku",
+        "type": "deployment",
+        "end": "back-end"
+      }
+    ]
+  },
+  {
+    "name": "catechize",
+    "project_desktop_image": "https://i.ibb.co/Ch5P2Sh/catechize-desktop.png",
+    "project_mobile_image": "https://i.ibb.co/R2xXjj0/catechize-mobile.png",
+    "span": "Sep 2019",
+    "url": "https://geetesh911.github.io/catechize/",
+    "description": "I made this whole quiz website using HTML,CSS (SCSS),Bootstrap, JavaScript, JSON and deployed it using GitHub.",
+    "technologies": [
+      {
+        "name": "html5",
+        "type": "markup",
+        "end": "front-end"
+      },
+      {
+        "name": "css",
+        "type": "stylesheet",
+        "end": "front-end"
+      },
+      {
+        "name": "bootstrap",
+        "type": "css framework",
+        "end": "front-end"
+      },
+      {
+        "name": "javascript",
+        "type": "programming language",
+        "end": "front-end"
+      },
+      {
+        "name": "github",
+        "type": "deployment",
+        "end": "front-end"
+      }
+    ]
+  }
+]

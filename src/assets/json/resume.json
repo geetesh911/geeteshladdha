@@ -1,0 +1,264 @@
+{
+  "personal_details": {
+    "name": "geetesh laddha",
+    "address": "10, Sitaram Vihar, Patrakar Colony, Mansarover, Jaipur",
+    "mobile": "9521542026",
+    "email": "geetesh911@gmail.com"
+  },
+  "objectives": [
+    "To secure  a  challenging  position  in  a  reputable  organizationto  expand  my knowledge and skills.",
+    "To use my skills for the betterment of company and myself."
+  ],
+  "education": [
+    {
+      "status": "pursuing",
+      "course": "Bachelor of Computer Application",
+      "span": "2018-21",
+      "institution": "University Maharaja College, Jaipur (University of Rajasthan)",
+      "marks": [
+        {
+          "mark": "71",
+          "type": "percentage",
+          "class": "1st year"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "course": "XII (Senior Secondary) | Commerce",
+      "span": "2017-18",
+      "institution": "CBSE Board (Maheshwari Public School) ",
+      "marks": [
+        {
+          "mark": "94.60",
+          "type": "percentage"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "course": "X (Secondary)",
+      "span": "2015-16",
+      "institution": "CBSE Board (Maheshwari Public School) ",
+      "marks": [
+        {
+          "mark": "8.8/10",
+          "type": "cgpa"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Gir Gaumata Dairy Club",
+      "url": "http://nmwadi.com/GirGoumata.html",
+      "description": "I made a webpage of this website using HTML, CSS and Bootstrap.",
+      "technologies": [
+        {
+          "name": "html5",
+          "type": "markup",
+          "end": "front-end"
+        },
+        {
+          "name": "css",
+          "type": "stylesheet",
+          "end": "front-end"
+        },
+        {
+          "name": "bootstrap",
+          "type": "css framework",
+          "end": "front-end"
+        }
+      ]
+    },
+    {
+      "name": "catechize (quiz website)",
+      "span": "Sep 2019",
+      "url": "https://geetesh911.github.io/catechize/",
+      "description": "I made this whole quiz website using HTML,CSS (SCSS),Bootstrap, JavaScript, JSON and deployed it using GitHub.",
+      "technologies": [
+        {
+          "name": "html5",
+          "type": "markup",
+          "end": "front-end"
+        },
+        {
+          "name": "css",
+          "type": "stylesheet",
+          "end": "front-end"
+        },
+        {
+          "name": "bootstrap",
+          "type": "css framework",
+          "end": "front-end"
+        },
+        {
+          "name": "javascript",
+          "type": "programming language",
+          "end": "front-end"
+        },
+        {
+          "name": "github",
+          "type": "deployment",
+          "end": "front-end"
+        }
+      ]
+    },
+    {
+      "name": "viand (food diary app)",
+      "span": "Jan 2020",
+      "url": "https://viand.netlify.com/",
+      "description": "This is an website to add an experience of a visit to a restaurant or cafe like a private diary for your food bucket list.",
+      "technologies": [
+        {
+          "name": "scss",
+          "type": "stylesheet language",
+          "end": "front-end"
+        },
+        {
+          "name": "bootstrap",
+          "type": "css framework",
+          "end": "front-end"
+        },
+        {
+          "name": "materializecss",
+          "type": "css framework",
+          "end": "front-end"
+        },
+        {
+          "name": "javascript",
+          "type": "programming language",
+          "end": "front-end"
+        },
+        {
+          "name": "reactjs",
+          "type": "javascript framework",
+          "end": "front-end"
+        },
+        {
+          "name": "nodejs",
+          "type": "javascript run-time environment",
+          "end": "back-end"
+        },
+        {
+          "name": "netlify",
+          "type": "deployment",
+          "end": "front-end"
+        },
+        {
+          "name": "heroku",
+          "type": "deployment",
+          "end": "back-end"
+        }
+      ]
+    },
+    {
+      "name": "Flick (movie search app)",
+      "span": "Feb 2020",
+      "url": "https://flick-movies.netlify.com/",
+      "description": "Flick is a movie search website where you can search your favorite movies and tv-shows and find out each and every detail and the ott platform where you can see the movie and also you can create your watchlist.",
+      "technologies": [
+        {
+          "name": "scss",
+          "type": "stylesheet language",
+          "end": "front-end"
+        },
+        {
+          "name": "bootstrap",
+          "type": "css framework",
+          "end": "front-end"
+        },
+        {
+          "name": "javascript",
+          "type": "programming language",
+          "end": "front-end"
+        },
+        {
+          "name": "reactjs",
+          "type": "javascript framework",
+          "end": "front-end"
+        },
+        {
+          "name": "nodejs",
+          "type": "javascript run-time environment",
+          "end": "back-end"
+        },
+        {
+          "name": "netlify",
+          "type": "deployment",
+          "end": "front-end"
+        },
+        {
+          "name": "heroku",
+          "type": "deployment",
+          "end": "back-end"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML5",
+      "level": "Intermediate",
+      "mark": "70"
+    },
+    {
+      "name": "CSS",
+      "level": "Intermediate",
+      "mark": "70"
+    },
+    {
+      "name": "SASS",
+      "level": "Intermediate",
+      "mark": "60"
+    },
+    {
+      "name": "Bootstrap",
+      "level": "Intermediate",
+      "mark": "70"
+    },
+    {
+      "name": "JSON",
+      "level": "Beginner",
+      "mark": "60"
+    },
+    {
+      "name": "Javascript",
+      "level": "Beginner",
+      "mark": "50"
+    },
+    {
+      "name": "ReactJS",
+      "level": "Beginner",
+      "mark": "50"
+    },
+    {
+      "name": "C Language",
+      "level": "Beginner",
+      "mark": "40"
+    },
+    {
+      "name": "C++",
+      "level": "Beginner",
+      "mark": "40"
+    },
+    {
+      "name": "MySQL",
+      "level": "Beginner",
+      "mark": "40"
+    },
+    {
+      "name": "Microsoft Office",
+      "level": "Beginner",
+      "mark": "60"
+    }
+  ],
+  "certificates": [
+    {
+      "certificate": "Certificate Of Merit",
+      "date": "Nov 1, 2018",
+      "issuer": "Central Board Of Secondary Education",
+      "description": "Received Certificate Of Merit for being among the top 0.1 percent of successful candidates in INFORMATICS PRACTICES."
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+.projects {
+  margin-right: -2px;
+  min-height: 80vh;
+
+  background-color: $primary-color;
+  padding: 70px;
+
+  .project-heading {
+    font-size: 50px;
+    font-weight: 800;
+    color: $hover-color;
+  }
+  .project {
+    margin-top: 40px;
+    color: white;
+    .project-name {
+      // text-align: center;
+      // margin-left: 50px;
+      color: $hover-color;
+      font-size: 60px;
+      font-weight: 800;
+    }
+    .project-desktop-image {
+      display: block;
+      // text-align: center;
+      img {
+        margin: auto;
+        width: 90%;
+      }
+    }
+    .project-mobile-image {
+      display: none;
+    }
+    .project-description {
+      padding: 30px 0;
+      font-size: 2.8em;
+      font-weight: 600;
+    }
+    .project-tools {
+      // padding: 0px 50px;
+      .heading {
+        font-size: 3em;
+        font-weight: 600;
+        color: $hover-color;
+      }
+      .tools-used {
+        ul {
+          margin-left: 40px;
+          font-size: 2.8em;
+          font-weight: 600;
+          text-transform: capitalize;
+        }
+      }
+    }
+    .project-link {
+      position: relative;
+      display: inline-block;
+      font-size: 2.8em;
+      font-weight: 600;
+      margin-top: 20px;
+      a {
+        color: white;
+        text-decoration: none;
+        &::before {
+          position: absolute;
+          top: 100%;
+          left: 0;
+          content: "";
+          height: 2px;
+          width: 100%;
+          background-color: white;
+        }
+        &::after {
+          position: absolute;
+          top: 100%;
+          left: 0;
+          content: "";
+          height: 2px;
+          width: 100%;
+          background-color: white;
+        }
+        &:hover {
+          color: $hover-color;
+          &::before {
+            top: 0;
+            width: 2px;
+            height: 100%;
+            left: -10px;
+            background-color: $hover-color;
+            transition: 0.5s ease;
+          }
+          &::after {
+            top: 0;
+            right: -10px;
+            left: auto;
+            width: 2px;
+            height: 100%;
+            background-color: $hover-color;
+            transition: 0.5s ease;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 70px 15px;
+    .project {
+      .project-name {
+        padding: 0 20px;
+      }
+      .project-desktop-image {
+        display: none;
+      }
+      .project-mobile-image {
+        display: block;
+        padding: 20px;
+        text-align: center;
+        img {
+          margin: auto;
+          width: 280px;
+        }
+      }
+      .project-description {
+        font-size: 30px;
+        padding: 20px;
+      }
+      .project-tools {
+        padding: 0 20px !important;
+        .heading {
+          font-size: 40px;
+        }
+
+        ul {
+          font-size: 30px !important;
+        }
+      }
+      .project-link {
+        margin-left: 20px;
+        font-size: 30px;
+      }
+    }
+  }
+}

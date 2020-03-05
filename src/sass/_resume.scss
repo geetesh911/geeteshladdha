@@ -1,0 +1,201 @@
+.resume {
+  //   height: 100vh;
+  // width: 100vw;
+  background-color: $primary-color;
+  padding: 20px 60px;
+  color: white;
+
+  .resume-heading {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 30px;
+    color: $hover-color;
+  }
+
+  .intro {
+    margin: 30px 0px 0px;
+    padding: 20px 0 0;
+    .name {
+      font-size: 30px;
+      text-transform: capitalize;
+    }
+    .address,
+    .mobile,
+    .resume-email {
+      font-size: 20px;
+      text-transform: capitalize;
+    }
+    .resume-email {
+      text-transform: lowercase;
+      a {
+        color: white;
+        text-decoration: none;
+        &:hover {
+          color: $hover-color;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .objectives {
+    .objective {
+      margin: 5px 0 0 15px;
+    }
+  }
+  .education {
+    .education-section {
+      text-transform: capitalize;
+      .course {
+        color: #ffc107;
+        font-weight: 500;
+        font-size: 18px;
+        margin-top: 10px;
+        &:first-of-type {
+          margin-top: 0;
+        }
+      }
+      .mark-class {
+        color: #ffc107;
+        display: inline-flex;
+        &::after {
+          content: "-";
+          margin: 0 5px;
+        }
+      }
+      .mark-type {
+        font-size: 16px;
+        display: inline-block;
+        margin-right: 3px;
+        text-transform: uppercase;
+      }
+      .mark {
+        display: inline-block;
+      }
+    }
+  }
+  .resume-projects {
+    .project-name {
+      display: inline-flex;
+      color: #ffc107;
+      font-weight: 500;
+      font-size: 18px;
+      margin-top: 10px;
+      &:first-of-type {
+        margin-top: 0;
+      }
+      &::after {
+        content: "|";
+        margin: 0 5px;
+      }
+    }
+    .project-span {
+      font-weight: 500;
+      margin: 3px 0;
+    }
+    .project-button {
+      display: none;
+    }
+    .project-url {
+      font-size: 18px;
+      text-transform: lowercase;
+      display: inline-block;
+      a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+          color: $hover-color;
+        }
+      }
+    }
+    .project-description {
+      color: #dcdcdc;
+    }
+  }
+  .skills {
+    ul {
+      list-style-type: disc !important;
+    }
+    .skillset {
+      width: 50%;
+      display: inline-block;
+      display: inline-flex;
+      align-items: flex-end;
+      color: white;
+      margin-top: 15px;
+      .progress {
+        width: 200px;
+        height: 20px;
+        background-color: rgba(#e9ecef, 1);
+      }
+      &:first-of-type {
+        margin-top: 0;
+      }
+    }
+    .skill,
+    .level {
+      display: inline-block;
+    }
+    .skill {
+      color: #ffc107;
+      font-weight: 500;
+      &::after {
+        content: "|";
+        margin: 0 5px;
+      }
+    }
+  }
+
+  .certificates {
+    .certificate-name {
+      font-size: 18px;
+      color: #ffc107;
+      font-weight: 500;
+    }
+    .certificate-date {
+      font-weight: 500;
+    }
+    .certificate-description {
+      color: #dcdcdc;
+    }
+    .certificate-issuer {
+      font-weight: 500;
+      color: $hover-color;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .resume {
+    padding: 20px 15px;
+    margin-right: -2px;
+    .intro {
+      margin: 30px 0;
+      padding: 20px 5px;
+    }
+    .projects {
+      .project-name {
+        &::after {
+          content: "";
+        }
+      }
+      .project-button {
+        display: block;
+        margin-top: 5px;
+        a {
+          color: $hover-color;
+          text-decoration: none;
+        }
+      }
+      .project-url {
+        display: none;
+      }
+    }
+    .skills {
+      .skillset {
+        width: 100%;
+        margin-top: 15px;
+      }
+    }
+  }
+}
