@@ -982,7 +982,8 @@
     margin-top: 20px;
   }
   .email {
-    padding-left: 20px;
+    text-align: center;
+    padding-left: 0px;
     padding-right: 0px;
   }
   .email a {
