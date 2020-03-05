@@ -22,6 +22,18 @@
 
 @media (max-width: 768px) {
   .contact {
-    padding: 70px 20px !important;
+    padding: 24vh 20px 13vh !important;
+
+    .contact-content {
+      p {
+        margin-top: 20px;
+      }
+    }
+  }
+  .email {
+    padding-left: 20px;
+    a {
+      font-size: 30px !important;
+    }
   }
 }
