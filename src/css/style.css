@@ -983,6 +983,7 @@
   }
   .email {
     padding-left: 20px;
+    padding-right: 0px;
   }
   .email a {
     font-size: 30px !important;
