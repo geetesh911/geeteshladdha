@@ -1,5 +1,5 @@
 @import url("../assets/geomanist/stylesheet.css");
-.logo {
+.logo a {
   font-weight: 800;
   font-size: 25px;
   margin: 2.5rem 3rem;
@@ -7,9 +7,10 @@
   cursor: pointer;
   position: fixed;
   z-index: 2;
+  text-decoration: none;
 }
 
-.logo:hover {
+.logo a:hover {
   color: #b3a577;
 }
 

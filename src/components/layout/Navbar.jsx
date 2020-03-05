@@ -8,7 +8,9 @@ export const Navbar = () => {
 
   return (
     <div className="navbar">
-      <div className="logo">Gl</div>
+      <div className="logo">
+        <Link to="/">Gl</Link>
+      </div>
       <div className="menu-wrap">
         <input type="checkbox" className="toggler" />
         <div className="hamburger">
