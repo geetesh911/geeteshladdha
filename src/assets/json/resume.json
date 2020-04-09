@@ -190,6 +190,54 @@
           "end": "front-end"
         }
       ]
+    },
+    {
+      "name": "debitit",
+      "span": "Mar 2020 - Apr 2020",
+      "url": "http://debitit.netlify.com/",
+      "description": "This web app is designed for small businesses to record their day to day purchases, sale, expenses etc. They can also see their creditors, customers account as well as their cash and bank transactions.",
+      "technologies": [
+        {
+          "name": "scss",
+          "type": "stylesheet language",
+          "end": "front-end"
+        },
+        {
+          "name": "bootstrap",
+          "type": "css framework",
+          "end": "front-end"
+        },
+        {
+          "name": "javascript",
+          "type": "programming language",
+          "end": "front-end"
+        },
+        {
+          "name": "reactjs",
+          "type": "javascript framework",
+          "end": "front-end"
+        },
+        {
+          "name": "nodejs",
+          "type": "javascript run-time environment",
+          "end": "back-end"
+        },
+        {
+          "name": "redux",
+          "type": "state manager",
+          "end": "front-end"
+        },
+        {
+          "name": "netlify",
+          "type": "deployment",
+          "end": "front-end"
+        },
+        {
+          "name": "heroku",
+          "type": "deployment",
+          "end": "back-end"
+        }
+      ]
     }
   ],
   "skills": [

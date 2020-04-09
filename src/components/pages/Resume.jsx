@@ -5,7 +5,7 @@ import AOS from "aos";
 export const Resume = () => {
   useEffect(() => {
     AOS.init({
-      duration: 2000
+      duration: 2000,
     });
   }, []);
   const {
@@ -14,7 +14,7 @@ export const Resume = () => {
     education,
     projects,
     skills,
-    certificates
+    certificates,
   } = resume;
   const { name, address, mobile, email } = personal_details;
 
@@ -24,7 +24,7 @@ export const Resume = () => {
     "#dc3545",
     "#28a745",
     "#20c997",
-    "#6f42c1"
+    "#6f42c1",
   ];
 
   return (
@@ -46,7 +46,7 @@ export const Resume = () => {
         </div>
         <ul>
           {objectives &&
-            objectives.map(objective => (
+            objectives.map((objective) => (
               <li key={objective} className="objective" data-aos="fade-up">
                 {objective}
               </li>
@@ -59,7 +59,7 @@ export const Resume = () => {
         </div>
         <div className="education-section" data-aos="fade-up">
           {education &&
-            education.map(section => (
+            education.map((section) => (
               <Fragment key={section.course}>
                 <div className="course">
                   {section.status === "pursuing"
@@ -89,7 +89,7 @@ export const Resume = () => {
             </div>
             <div className="project-section" data-aos="fade-up">
               {projects &&
-                projects.map(project => (
+                projects.map((project) => (
                   <Fragment key={project.name}>
                     <div className="project-name" data-aos="fade-up">
                       {project.name}
@@ -117,7 +117,7 @@ export const Resume = () => {
             <div className="skill-list" data-aos="fade-up">
               <ul>
                 {skills &&
-                  skills.map(skill => (
+                  skills.map((skill) => (
                     <li className="skillset" key={skill.name}>
                       <div className="skill" data-aos="fade-up">
                         {skill.name}
@@ -126,13 +126,17 @@ export const Resume = () => {
                         <div className="progress" data-aos="fade-left">
                           <div
                             max="100"
+                            className="skill-progress"
                             style={{
                               width: `${skill.mark}%`,
                               height: "20px",
                               background:
-                                progressBarColors[Math.ceil(Math.random() * 5)]
+                                progressBarColors[Math.ceil(Math.random() * 5)],
                             }}
                           ></div>
+                          <div className="skill-percentage">
+                            {`${skill.mark}%`}
+                          </div>
                         </div>
                       </div>
                     </li>
@@ -145,7 +149,7 @@ export const Resume = () => {
               </div>
               <div data-aos="fade-up">
                 {certificates &&
-                  certificates.map(certificate => (
+                  certificates.map((certificate) => (
                     <Fragment key={certificate.description}>
                       <div className="certificate-name">
                         {certificate.certificate}

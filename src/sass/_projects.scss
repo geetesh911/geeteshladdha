@@ -4,7 +4,11 @@
 
   background-color: $primary-color;
   padding: 70px;
-
+  .email {
+    a {
+      font-size: 2.8rem;
+    }
+  }
   .project-heading {
     font-size: 50px;
     font-weight: 800;
@@ -22,13 +26,27 @@
     }
     .project-desktop-image {
       display: block;
+      position: relative;
       // text-align: center;
       img {
         margin: auto;
         width: 90%;
       }
     }
+    .sale-tag-desktop {
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      img {
+        height: 70px;
+        width: 70px;
+      }
+    }
     .project-mobile-image {
+      display: none;
+      position: relative;
+    }
+    .sale-tag-mobile {
       display: none;
     }
     .project-description {
@@ -107,6 +125,11 @@
 @media (max-width: 768px) {
   .projects {
     padding: 70px 15px;
+    .email {
+      a {
+        font-size: 25px;
+      }
+    }
     .project {
       .project-name {
         padding: 0 20px;
@@ -121,6 +144,16 @@
         img {
           margin: auto;
           width: 280px;
+        }
+      }
+      .sale-tag-mobile {
+        display: block;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        img {
+          height: 70px;
+          width: 70px;
         }
       }
       .project-description {

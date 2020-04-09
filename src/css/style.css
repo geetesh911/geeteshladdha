@@ -729,7 +729,22 @@
 .resume .skills .skillset .progress {
   width: 200px;
   height: 20px;
-  background-color: #e9ecef;
+  background-color: #262626;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.resume .skills .skillset .progress .skill-percentage {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+}
+
+.resume .skills .skillset .progress .skill-progress {
+  border-radius: 10px 0 0 10px;
+  background: #1da1f2 !important;
 }
 
 .resume .skills .skillset:first-of-type {
@@ -797,6 +812,12 @@
     width: 100%;
     margin-top: 15px;
   }
+  .resume .skills .skillset .progress {
+    border-radius: 10px;
+  }
+  .resume .skills .skillset .skill-progress {
+    border-radius: 10px;
+  }
 }
 
 .projects {
@@ -804,6 +825,10 @@
   min-height: 80vh;
   background-color: #181818;
   padding: 70px;
+}
+
+.projects .email a {
+  font-size: 2.8rem;
 }
 
 .projects .project-heading {
@@ -825,6 +850,7 @@
 
 .projects .project .project-desktop-image {
   display: block;
+  position: relative;
 }
 
 .projects .project .project-desktop-image img {
@@ -832,7 +858,23 @@
   width: 90%;
 }
 
+.projects .project .sale-tag-desktop {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.projects .project .sale-tag-desktop img {
+  height: 70px;
+  width: 70px;
+}
+
 .projects .project .project-mobile-image {
+  display: none;
+  position: relative;
+}
+
+.projects .project .sale-tag-mobile {
   display: none;
 }
 
@@ -917,6 +959,9 @@
   .projects {
     padding: 70px 15px;
   }
+  .projects .email a {
+    font-size: 25px;
+  }
   .projects .project .project-name {
     padding: 0 20px;
   }
@@ -931,6 +976,16 @@
   .projects .project .project-mobile-image img {
     margin: auto;
     width: 280px;
+  }
+  .projects .project .sale-tag-mobile {
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+  .projects .project .sale-tag-mobile img {
+    height: 70px;
+    width: 70px;
   }
   .projects .project .project-description {
     font-size: 30px;

@@ -126,7 +126,20 @@
       .progress {
         width: 200px;
         height: 20px;
-        background-color: rgba(#e9ecef, 1);
+        background-color: rgba(#262626, 1);
+        border-radius: 10px;
+        text-align: center;
+        .skill-percentage {
+          position: absolute;
+          top: 0;
+          text-align: center;
+          width: 100%;
+          font-size: 14px;
+        }
+        .skill-progress {
+          border-radius: 10px 0 0 10px;
+          background: #1da1f2 !important;
+        }
       }
       &:first-of-type {
         margin-top: 0;
@@ -195,6 +208,12 @@
       .skillset {
         width: 100%;
         margin-top: 15px;
+        .progress {
+          border-radius: 10px;
+        }
+        .skill-progress {
+          border-radius: 10px;
+        }
       }
     }
   }

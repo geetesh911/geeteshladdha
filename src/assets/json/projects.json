@@ -1,11 +1,63 @@
 [
   {
+    "name": "debitit",
+    "project_desktop_image": "https://i.ibb.co/hYJ4Cf4/debitit-desktop.png",
+    "project_mobile_image": "https://i.ibb.co/RH241Wb/debitit-mobile.png",
+    "span": "Mar 2020 - Apr 2020",
+    "url": "http://debitit.netlify.com/",
+    "description": "<p>This web app is designed for small businesses to record their day to day purchases, sale, expenses etc.</p> <p>They can also see their creditors, customers account as well as their cash and bank transactions. </p><p style='margin-top: 7px'>This software is available for sale, anyone interested in buying it can contact me on </p><div class='email' style='padding: 0;'><a href='mailto:geetesh911@gmail.com?Subject=Hello'>geetesh911@gmail.com</a></div>",
+    "forSale": true,
+    "technologies": [
+      {
+        "name": "SCSS",
+        "type": "stylesheet language",
+        "end": "front-end"
+      },
+      {
+        "name": "bootstrap",
+        "type": "css framework",
+        "end": "front-end"
+      },
+      {
+        "name": "javascript",
+        "type": "programming language",
+        "end": "front-end"
+      },
+      {
+        "name": "reactjs",
+        "type": "javascript framework",
+        "end": "front-end"
+      },
+      {
+        "name": "nodejs",
+        "type": "javascript run-time environment",
+        "end": "back-end"
+      },
+      {
+        "name": "redux",
+        "type": "state manager",
+        "end": "front-end"
+      },
+      {
+        "name": "netlify",
+        "type": "deployment",
+        "end": "front-end"
+      },
+      {
+        "name": "heroku",
+        "type": "deployment",
+        "end": "back-end"
+      }
+    ]
+  },
+  {
     "name": "flick",
     "project_desktop_image": "https://i.ibb.co/jGmNRjr/flick-desktop.png",
     "project_mobile_image": "https://i.ibb.co/bvsTnq9/flick-mobile.png",
     "span": "Feb 2020",
     "url": "https://flick-movies.netlify.com/",
     "description": "Flick is a movie search website where you can search your favorite movies and tv-shows and find out each and every detail and the ott platform where you can see the movie and also you can create your watchlist.",
+    "forSale": false,
     "technologies": [
       {
         "name": "SCSS",
@@ -51,6 +103,7 @@
     "span": "Jan 2020",
     "url": "https://viand.netlify.com/",
     "description": "This is an website to add an experience of a visit to a restaurant or cafe like a private diary for your food bucket list.",
+    "forSale": false,
     "technologies": [
       {
         "name": "SCSS",
@@ -101,6 +154,7 @@
     "span": "Sep 2019",
     "url": "https://geetesh911.github.io/catechize/",
     "description": "I made this whole quiz website using HTML,CSS (SCSS),Bootstrap, JavaScript, JSON and deployed it using GitHub.",
+    "forSale": false,
     "technologies": [
       {
         "name": "html5",
