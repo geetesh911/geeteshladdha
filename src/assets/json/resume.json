@@ -9,6 +9,17 @@
     "To secure  a  challenging  position  in  a  reputable  organizationto  expand  my knowledge and skills.",
     "To use my skills for the betterment of company and myself."
   ],
+  "experience": [
+    {
+      "company": "PillarPlus",
+      "tenure": "July-2020 - Present",
+      "profile": [
+        "Worked on ReactJS to build components for the company product.",
+        "Worked on many geometrical, graph, stack and other data structures and algorithms related problems.",
+        "Also worked on THREE.js to prepare some models."
+      ]
+    }
+  ],
   "education": [
     {
       "status": "pursuing",
@@ -20,6 +31,11 @@
           "mark": "71",
           "type": "percentage",
           "class": "1st year"
+        },
+        {
+          "mark": "71",
+          "type": "percentage",
+          "class": "2nd year"
         }
       ]
     },
@@ -238,6 +254,135 @@
           "end": "back-end"
         }
       ]
+    },
+    {
+      "name": "neerajkaffewala (food blogging website)",
+      "span": "May 2020",
+      "url": "http://neerajkaffewala.in",
+      "description": "This is my  first  freelance project that I made for my  friend. This website is basically a food blogging site where we can post blogs, recipes and images. I also build an admin panel  to  help  him  create  awesome  blogs  and  recipes  as  well  to  post  his  favouriteimages. I created this website using react and nodejs with mysql as database.",
+      "technologies": [
+        {
+          "name": "scss",
+          "type": "stylesheet language",
+          "end": "front-end"
+        },
+        {
+          "name": "bootstrap",
+          "type": "css framework",
+          "end": "front-end"
+        },
+        {
+          "name": "javascript",
+          "type": "programming language",
+          "end": "front-end"
+        },
+        {
+          "name": "reactjs",
+          "type": "javascript framework",
+          "end": "front-end"
+        },
+        {
+          "name": "nodejs",
+          "type": "javascript run-time environment",
+          "end": "back-end"
+        }
+      ]
+    },
+    {
+      "name": "chorus (music streaming website)",
+      "span": "Jun 2020 – Jul 2020",
+      "url": "https://chorusmusic.netlify.com/",
+      "description": "This is a music streaming progressive  web app built  with ReactJS. In this app you can stream your favourite music, find your favourite artists and many playlists. You can also see your history and can also download your favourite music for offline streaming.",
+      "technologies": [
+        {
+          "name": "scss",
+          "type": "stylesheet language",
+          "end": "front-end"
+        },
+        {
+          "name": "bootstrap",
+          "type": "css framework",
+          "end": "front-end"
+        },
+        {
+          "name": "javascript",
+          "type": "programming language",
+          "end": "front-end"
+        },
+        {
+          "name": "reactjs",
+          "type": "javascript framework",
+          "end": "front-end"
+        },
+        {
+          "name": "framer motion",
+          "type": "animation library",
+          "end": "front-end"
+        },
+        {
+          "name": "nodejs",
+          "type": "javascript run-time environment",
+          "end": "back-end"
+        }
+      ]
+    },
+    {
+      "name": "MoodyMoods (shopping website)",
+      "span": "Jun 2021 – Aug 2021",
+      "url": "https://www.moodymoods.studio/",
+      "description": "This is art products shopping website built using NextJS and Django. Using this website, you can shop your favourite art products, add them to your wish list, add them to your cart, can pre-pay for your orders using Paytm payment portal, use coupons for discounts and can also track your orders. You can register or login either by logging in using Facebook or by manually entering your details. It also contains a gallery section where you can browse art images exclusively posted on the website. I have also created an admin panel for easily adding products, product categories, coupons, manage orders and post images to the gallery. I have used Postgres as my database, Django as my backend and NextJS and react as my frontend.",
+      "technologies": [
+        {
+          "name": "scss",
+          "type": "stylesheet language",
+          "end": "front-end"
+        },
+        {
+          "name": "bootstrap",
+          "type": "css framework",
+          "end": "front-end"
+        },
+        {
+          "name": "javascript",
+          "type": "programming language",
+          "end": "front-end"
+        },
+        {
+          "name": "reactjs",
+          "type": "javascript framework",
+          "end": "front-end"
+        },
+        {
+          "name": "nextjs",
+          "type": "javascript framework",
+          "end": "front-end"
+        },
+        {
+          "name": "django",
+          "type": "python web framework",
+          "end": "back-end"
+        },
+        {
+          "name": "postgres",
+          "type": "database",
+          "end": "back-end"
+        },
+        {
+          "name": "paytm",
+          "type": "payment portal",
+          "end": "back-end"
+        },
+        {
+          "name": "vercel",
+          "type": "deployment",
+          "end": "front-end"
+        },
+        {
+          "name": "heroku",
+          "type": "deployment",
+          "end": "back-end"
+        }
+      ]
     }
   ],
   "skills": [
@@ -268,31 +413,36 @@
     },
     {
       "name": "Javascript",
-      "level": "Beginner",
-      "mark": "50"
+      "level": "Intermediate",
+      "mark": "70"
     },
     {
       "name": "ReactJS",
       "level": "Beginner",
+      "mark": "60"
+    },
+    {
+      "name": "NextJS",
+      "level": "Beginner",
       "mark": "50"
     },
     {
-      "name": "C Language",
+      "name": "Python",
+      "level": "Beginner",
+      "mark": "50"
+    },
+    {
+      "name": "Django",
       "level": "Beginner",
       "mark": "40"
     },
     {
-      "name": "C++",
+      "name": "Git",
       "level": "Beginner",
       "mark": "40"
     },
     {
-      "name": "MySQL",
-      "level": "Beginner",
-      "mark": "40"
-    },
-    {
-      "name": "Microsoft Office",
+      "name": "REST APIs",
       "level": "Beginner",
       "mark": "60"
     }

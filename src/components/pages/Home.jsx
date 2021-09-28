@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect } from "react";
-import profile from "../../assets/images/profile.jpg";
+import profile from "../../assets/images/profile.jfif";
 import home from "../../assets/json/home.json";
 import ReactHtmlParser from "react-html-parser";
 import AOS from "aos";

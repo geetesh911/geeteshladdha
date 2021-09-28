@@ -73,6 +73,20 @@
       }
     }
   }
+  .resume-experience {
+    .experience-section {
+      .experience-company {
+        display: inline-flex;
+        color: #ffc107;
+        font-weight: 500;
+        font-size: 18px;
+        margin-top: 10px;
+      }
+      ul {
+        margin-left: 2rem;
+      }
+    }
+  }
   .resume-projects {
     .project-name {
       display: inline-flex;

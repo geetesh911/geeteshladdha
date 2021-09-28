@@ -1,5 +1,143 @@
 [
   {
+    "name": "moodymoods",
+    "project_desktop_image": "https://i.ibb.co/z502BBg/moodymoods-desktop.png",
+    "project_mobile_image": "https://i.ibb.co/Y3d36dG/moodymoods-mobile.png",
+    "forSale": false,
+    "span": "Jun 2021 – Aug 2021",
+    "url": "https://www.moodymoods.studio/",
+    "description": "<p>This is art products shopping website built using NextJS and Django. Using this website, you can shop your favourite art products, add them to your wish list, add them to your cart, can pre-pay for your orders using Paytm payment portal, use coupons for discounts and can also track your orders. You can register or login either by logging in using Facebook or by manually entering your details. It also contains a gallery section where you can browse art images exclusively posted on the website. I have also created an admin panel for easily adding products, product categories, coupons, manage orders and post images to the gallery. I have used Postgres as my database, Django as my backend and NextJS and react as my frontend.</p>",
+    "technologies": [
+      {
+        "name": "scss",
+        "type": "stylesheet language",
+        "end": "front-end"
+      },
+      {
+        "name": "bootstrap",
+        "type": "css framework",
+        "end": "front-end"
+      },
+      {
+        "name": "javascript",
+        "type": "programming language",
+        "end": "front-end"
+      },
+      {
+        "name": "reactjs",
+        "type": "javascript framework",
+        "end": "front-end"
+      },
+      {
+        "name": "nextjs",
+        "type": "javascript framework",
+        "end": "front-end"
+      },
+      {
+        "name": "django",
+        "type": "python web framework",
+        "end": "back-end"
+      },
+      {
+        "name": "postgres",
+        "type": "database",
+        "end": "back-end"
+      },
+      {
+        "name": "paytm",
+        "type": "payment portal",
+        "end": "back-end"
+      },
+      {
+        "name": "vercel",
+        "type": "deployment",
+        "end": "front-end"
+      },
+      {
+        "name": "heroku",
+        "type": "deployment",
+        "end": "back-end"
+      }
+    ]
+  },
+  {
+    "name": "chorus",
+    "project_desktop_image": "https://i.ibb.co/LdBk432/chorus-desktop.png",
+    "project_mobile_image": "https://i.ibb.co/vzLPFgw/chorus-mobile.png",
+    "forSale": false,
+    "span": "Jun 2020 – Jul 2020",
+    "url": "https://chorusmusic.netlify.com/",
+    "description": "<p>This is a music streaming progressive  web app built  with ReactJS. In this app you can stream your favourite music, find your favourite artists and many playlists. You can also see your history and can also download your favourite music for offline streaming.</p>",
+    "technologies": [
+      {
+        "name": "scss",
+        "type": "stylesheet language",
+        "end": "front-end"
+      },
+      {
+        "name": "bootstrap",
+        "type": "css framework",
+        "end": "front-end"
+      },
+      {
+        "name": "javascript",
+        "type": "programming language",
+        "end": "front-end"
+      },
+      {
+        "name": "reactjs",
+        "type": "javascript framework",
+        "end": "front-end"
+      },
+      {
+        "name": "framer motion",
+        "type": "animation library",
+        "end": "front-end"
+      },
+      {
+        "name": "nodejs",
+        "type": "javascript run-time environment",
+        "end": "back-end"
+      }
+    ]
+  },
+  {
+    "name": "neerajkaffewala",
+    "project_desktop_image": "https://i.ibb.co/PCbPygq/neerajkaffewala-desktop.jpg",
+    "project_mobile_image": "https://i.ibb.co/X5f7vpF/neerajkaffewala-mobile.jpg",
+    "forSale": false,
+    "span": "May 2020",
+    "url": "http://neerajkaffewala.in",
+    "description": "<p>This is my  first  freelance project that I made for my  friend. This website is basically a food blogging site where we can post blogs, recipes and images. I also build an admin panel  to  help  him  create  awesome  blogs  and  recipes  as  well  to  post  his  favouriteimages. I created this website using react and nodejs with mysql as database.</p>",
+    "technologies": [
+      {
+        "name": "scss",
+        "type": "stylesheet language",
+        "end": "front-end"
+      },
+      {
+        "name": "bootstrap",
+        "type": "css framework",
+        "end": "front-end"
+      },
+      {
+        "name": "javascript",
+        "type": "programming language",
+        "end": "front-end"
+      },
+      {
+        "name": "reactjs",
+        "type": "javascript framework",
+        "end": "front-end"
+      },
+      {
+        "name": "nodejs",
+        "type": "javascript run-time environment",
+        "end": "back-end"
+      }
+    ]
+  },
+  {
     "name": "debitit",
     "project_desktop_image": "https://i.ibb.co/hYJ4Cf4/debitit-desktop.png",
     "project_mobile_image": "https://i.ibb.co/RH241Wb/debitit-mobile.png",

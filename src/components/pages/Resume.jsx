@@ -11,6 +11,7 @@ export const Resume = () => {
   const {
     personal_details,
     objectives,
+    experience,
     education,
     projects,
     skills,
@@ -26,7 +27,6 @@ export const Resume = () => {
     "#20c997",
     "#6f42c1",
   ];
-
   return (
     <div className="resume">
       <div className="intro">
@@ -54,6 +54,29 @@ export const Resume = () => {
         </ul>
       </div>
       <div className="education">
+        <div className="resume-experience">
+          <div className="resume-heading" data-aos="zoom-in">
+            Experience
+          </div>
+          <div className="experience-section" data-aos="fade-up">
+            {experience &&
+              experience.map((experienceDetail) => (
+                <Fragment key={experienceDetail.company}>
+                  <div className="experience-company" data-aos="fade-up">
+                    {experienceDetail.company}
+                  </div>
+                  <div className="experience-tenure" data-aos="fade-up">
+                    <div>{experienceDetail.tenure}</div>
+                  </div>
+                  <ul>
+                    {experienceDetail.profile.map((point) => (
+                      <li>{point}</li>
+                    ))}
+                  </ul>
+                </Fragment>
+              ))}
+          </div>
+        </div>
         <div className="resume-heading" data-aos="zoom-in">
           Education
         </div>
@@ -69,7 +92,7 @@ export const Resume = () => {
                 <div className="span">{section.span}</div>
                 <div className="institution">{section.institution}</div>
                 {section.marks.map((mark, index) => (
-                  <Fragment key={`${index}`}>
+                  <div key={`${index}`}>
                     {mark.class && (
                       <div className="mark-class">
                         <strong>{mark.class}</strong>
@@ -79,7 +102,7 @@ export const Resume = () => {
                       <strong>{mark.type}:</strong>
                     </div>
                     <div className="mark">{mark.mark}</div>
-                  </Fragment>
+                  </div>
                 ))}
               </Fragment>
             ))}
